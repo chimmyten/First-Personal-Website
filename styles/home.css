@@ -1,6 +1,7 @@
 
 body{
     background-color: rgb(216, 225, 237);
+    min-width: 1200px;
 }
 
 .nav-flex{
@@ -38,7 +39,6 @@ body{
 }
 
 .welcome{
-    margin-left: 100px;
     margin-bottom: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -55,7 +55,6 @@ body{
     font-size: 20px;
     background-color: rgb(246, 242, 242);
     padding: 10px 15px 10px 15px;
-    margin-left: 95px;
     width: 500px;
     border-radius: 25px;
     line-height: 25px;
@@ -85,8 +84,6 @@ body{
     flex-direction: row;
     width: 530px;
     justify-content: space-between;
-    margin-left: 95px;
-
 }
 
 .computer-picture{
@@ -101,6 +98,11 @@ body{
 .content-container{
     display: flex;
     margin: 0;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
 }
 
 .page-container{

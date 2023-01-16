@@ -2,6 +2,7 @@ body{
     background-color: rgb(216, 225, 237);
     margin-left: 40px;
     margin-right: 40px;
+    min-width: 600px;
 }
 
 p{
