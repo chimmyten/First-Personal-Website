@@ -42,27 +42,111 @@ p{
     color: white;
 }
 
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-title{
     margin-top: 100px;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
     margin-left: 10px;
+    display: inline-block;
+}
+
+.content-container{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+}
+
+.email-and-linkedin-container{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.email-container{
+    display: inline-block;
 }
 
 .email{
     display: inline-block;
-    background-color: rgb(240, 235, 233);
+    background-color: rgb(246, 242, 242);
     padding: 10px 15px 10px 15px;
     border-radius: 25px;
     line-height: 25px;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 
 .linked-in{
     display: inline-block;
-    background-color: rgb(240, 235, 233);
+    background-color: rgb(246, 242, 242);
     padding: 10px 15px 10px 15px;
     border-radius: 25px;
     line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.email-form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 242, 242);
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.contact-me{
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 20px;
+    justify-content: space-between;
+    height: 500px;
+    background-color: rgb(246, 242, 242);
+}
+
+.email-form input{
+    border: none;
+    padding: 18px;
+    font-family: Arial;
+    background-color: white;
+}
+
+.message{
+    font-family: Arial;
+    padding-top: 18px;
+    padding-left: 18px;
+    border: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button{
+    border: none;
+    background-color: rgb(247, 226, 223);
+    padding: 12px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.submit-button:hover{
+    opacity: .8;
 }
